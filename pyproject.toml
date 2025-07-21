@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyinfra-heredoc-helper"
+version = "0.0.1"
+authors = [
+  { name="Erlang Parasu", email="erlangparasu@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/erlangparasu/pyinfra-heredoc-helper"
+"Bug Tracker" = "https://github.com/erlangparasu/pyinfra-heredoc-helper/issues"
+
+[tool.setuptools]
+license-files = []
